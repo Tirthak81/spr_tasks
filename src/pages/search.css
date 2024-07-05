@@ -1,0 +1,21 @@
+.srch-box {
+  text-align: center;
+}
+
+.srch-box input {
+  margin-bottom: 1rem;
+}
+
+.srch-table {
+  border-collapse: collapse;
+  width: 100%;
+  height: 15rem;
+}
+
+.srch-table tbody {
+  text-align: left;
+}
+
+.srch-table tr {
+  border-bottom: none;
+}

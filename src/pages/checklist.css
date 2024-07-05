@@ -1,0 +1,15 @@
+.chek-table {
+  width: 100%;
+  height: screen;
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+
+.chek-table tr,
+th {
+  border-bottom: 1px solid black;
+}
+
+.chek-table td {
+  padding: 6px;
+}

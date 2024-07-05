@@ -1,0 +1,28 @@
+.loginpg {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-size: cover;
+  background-image: url(./bg.jpg);
+  background-repeat: no-repeat;
+}
+
+.box {
+  background-color: antiquewhite;
+  opacity: 85%;
+  width: 12rem;
+  padding: 1rem;
+  text-align: left;
+  line-height: 2rem;
+  border: 1px solid rgb(240, 131, 131);
+  border-radius: 5%;
+}
+
+.error {
+  color: red;
+  font-size: x-small;
+}
+
+.success {
+  color: rgb(10, 228, 10);
+}

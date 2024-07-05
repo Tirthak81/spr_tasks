@@ -1,0 +1,32 @@
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 600px;
+  margin: 40px auto;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 1px 1px rgba(73, 70, 70, 0.333);
+}
+
+.slide-hidden {
+  display: none;
+}
+
+.carousel img {
+  object-fit: cover;
+  margin: 0 10px;
+}
+
+.carousel i {
+  font-size: 3rem;
+}
+
+.carousel i:hover {
+  cursor: pointer;
+}
